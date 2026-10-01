@@ -129,7 +129,7 @@ The analysis shows that salary distributions vary across departments, with manag
 
 Employees whose monthly working hours were above the **90th percentile** were classified as having outlier hours.
 
-![Outlier Hours Analysis](outlier_hours_pivot.png)
+[View Outlier Hours Analysis](outlier_hours_pivot.png)
 
 The analysis identified **1,451 employees**, or approximately **9.7%** of the workforce, above this threshold.
 
