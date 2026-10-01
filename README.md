@@ -49,7 +49,7 @@ Across the overall employee population:
 - **Medium salary:** approximately 43.0%
 - **High salary:** approximately 8.3%
 
-Salary distributions varied by department.
+The salary distribution varied across departments.
 
 The management department had a substantially larger proportion of employees in the high-salary category compared with most other departments.
 
@@ -91,38 +91,57 @@ Median values were also calculated for monthly hours and satisfaction to provide
 
 ---
 
-##  Excel Analysis
+#  Excel Analysis & Visualizations
 
-The workbook includes several analysis worksheets:
+The analysis was performed in Microsoft Excel using PivotTables, calculations, percentile-based analysis, and visualizations.
 
-### `HR_file`
+## Department Analysis
 
-Contains the employee-level HR dataset and the calculated **Outlier Hours** field.
+The main PivotTable summarizes employee turnover and employee characteristics across departments.
 
-### `Pivot`
+It includes:
 
-Contains department-level analysis including:
-
-- Employee counts
 - Employees who left
+- Employee counts
 - Average monthly hours
-- Median monthly hours
-- Average evaluation
-- Average projects
+- Median evaluation
+- Average number of projects
 - Average satisfaction
 - Median satisfaction
 
-### `Pivot2`
+![Department Analysis PivotTable](department_analysis_pivot.png)
 
-Analyzes salary distribution by department.
+This PivotTable was used to compare departments across turnover-related and employee-level metrics.
 
-### `Sheet5`
+---
 
-Analyzes employees classified as having unusually high working hours.
+## Salary Distribution
 
-### `Visuals`
+The salary analysis uses a PivotTable to compare the percentage of employees in the **high, low, and medium salary categories** across departments.
 
-Contains supporting calculations and visualizations used to communicate the analysis.
+![Salary Distribution PivotTable](salary_distribution_pivot.png)
+
+The analysis shows that salary distributions vary across departments, with management having a substantially larger proportion of employees in the high-salary category.
+
+---
+
+## Workload & Outlier Hours
+
+Employees whose monthly working hours were above the **90th percentile** were classified as having outlier hours.
+
+![Outlier Hours Analysis](outlier_hours_pivot.png)
+
+The analysis identified **1,451 employees**, or approximately **9.7%** of the workforce, above this threshold.
+
+---
+
+## Excel Visualizations
+
+Charts and supporting visualizations were created in Excel to communicate the analysis and highlight differences across departments.
+
+![HR Analysis Visualizations](hr_analysis_visuals.png)
+
+These visualizations provide a visual summary of the employee turnover, salary, workload, and departmental analysis.
 
 ---
 
